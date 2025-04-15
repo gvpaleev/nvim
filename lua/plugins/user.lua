@@ -30,7 +30,20 @@ return {
     vim.keymap.set('n', '<Leader>ra', '<cmd>:NvimHttpYacAll<CR>', { desc='Run all requests'})
    end
   },
-  
+  {
+    "EdenEast/nightfox.nvim",
+    config = function()
+      require("nightfox").setup({
+        options = {
+          styles = {
+            comments = "italic",
+            keywords = "bold",
+          },
+        },
+      })
+      vim.cmd("colorscheme carbonfox")
+    end,
+  }
 }
   -- {
   -- "harrisoncramer/gitlab.nvim",
