@@ -1,6 +1,6 @@
-return {
-  {
-    "akinsho/bufferline.nvim",
-    enabled = false, -- Отключаем плагин
-  },
-}
+-- return {
+--   {
+--     "akinsho/bufferline.nvim",
+--     enabled = false, -- Отключаем плагин
+--   },
+-- }
