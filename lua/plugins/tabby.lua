@@ -1,3 +1,5 @@
+return {}
+
 -- return {
 --   {
 --     "nanozuki/tabby.nvim", -- Указывает на репозиторий плагина
